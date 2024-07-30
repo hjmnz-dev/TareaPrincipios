@@ -16,6 +16,11 @@ namespace TareaPrincipios.Liskov_Substitution_Principle
 
     }
 
+    public class Student
+    {
+        public string nombre { get; set; }
+    }
+
     public class OnlineCourse : Course_con_LSP
     {
         public override void Subscribe(Student std)
