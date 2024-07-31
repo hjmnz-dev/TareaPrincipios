@@ -13,11 +13,6 @@ namespace TareaPrincipios.Single_Responsability_Principle
         public string direccion { get; set; }
         public string correoElectronico { get; set; }
 
-        public void EnviarCorreoElectronico(string mensaje)
-        {
-
-        }
-
         public void ImprimirDatos()
         {
             Console.WriteLine($"Nombre: {nombre}");
